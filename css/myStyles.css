@@ -1,0 +1,83 @@
+.titleLogo {
+    font-family: Playlist Script;
+    font-size: 30px;
+    color: #fff;
+}
+/* The animation code */
+@keyframes reboteSuave {
+    0%   {transform: translateY(0)}
+    50% {transform: translateY(50px)}
+    100%   {transform: translateY(0)}
+  }
+  
+/* The element to apply the animation to */
+#viewMore {
+    color: white;
+    width: 100%;
+    text-align: center;
+    /* margin-left: 50px; */
+    animation-name: reboteSuave;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#viewMore i{
+
+    margin-left: 50px;
+}
+/* response */
+@media only screen and (max-width: 479px){
+    #rotulo h3{
+        width: 100vw;
+        text-align: center;
+        font-size: 75px;
+        margin-top: 20%;
+    }
+    #counter { 
+        flex-wrap: nowrap;
+        font-family: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .p-r-15 {
+        margin-right: 30px;
+    }
+    .p-l-15 {
+        padding-left: 0;
+    }
+    .p-b-90 {
+        padding-bottom: 290px;
+    }
+    .p-t-80 {
+    }
+    /***/
+    .m-r-22 {
+        margin-right: 0;
+    }
+    .m-b-8 {
+        margin-bottom: 0;
+    }
+    .m-t-8 {
+        margin-top: 0px;
+    }
+    .simpleslide100-item{
+        display: block;
+    }
+    .simpleslide100-item .video {
+        display: none;
+    }
+    #textLogo{
+        width: 100%;
+        text-align: center;
+    }
+    .titleLogo {
+        font-size: 44px;
+    }
+    .desc{
+        text-align: center;
+        font-size: 20px; 
+    }
+    .display-table-cell {
+        display: block;
+        /* vertical-align: middle; */
+    }
+}

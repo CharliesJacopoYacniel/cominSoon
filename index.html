@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Charlyes | Proximamente Aqu&iacute;</title>
+	<title>Charlies | Proximamente Aqu&iacute;</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css"> -->
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
@@ -15,39 +15,40 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css"> -->
 <!--===============================================================================================-->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" >
 <link rel="stylesheet" href="css/ionicons.css" >
-<link rel="stylesheet" href="css/jquery.classycountdown.css" />		
+<!-- <link rel="stylesheet" href="css/jquery.classycountdown.css" />		 -->
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css" href="css/util.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/myStyles.css">
 
 </head>
 <body style="overflow-x: initial;">
 	
 	<!--  -->
 	<div class="simpleslide100">
-		<video  class="simpleslide100-item" src="src/video/videoBack.mp4" autoplay loop></video>
-		<!-- <div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg04.jpg');"></div> -->
+		<video  class="simpleslide100-item video" src="src/video/videoBack.mp4" autoplay loop ></video>
+		<!-- <div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg'); display:none;"></div> -->
+		<!-- <div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg'); display:none;"></div> -->
+		<!-- <div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg'); display:none;"></div> -->
+		<!-- <div class="simpleslide100-item bg-img1" style="background-image: url('images/bg04.jpg'); display:none;"></div> -->
 	</div>
 
 	<div class="flex-col-c-sb size1 overlay1 p-l-75 p-r-75 p-t-20 p-b-40 p-lr-15-sm">
 		<div class="w-full flex-w flex-sb-m">
-			<div class="wrappic1 m-r-30 m-t-10 m-b-10">
+			<div class="wrappic1 m-r-30 m-t-10 m-b-10" id="textLogo">
 				<span  class="btnLogo">
-					<a href="https://charlyes.com/"><h4 class="titleLogo" style="font-family: Playlist Script;font-size: 30px;color: #fff;">Charlies Yacniel</h4></a>
+					<a href="https://charlyes.com/"><h4 class="titleLogo">Charlies Yacniel</h4></a>
 				</span>
 			</div>
 
-			<div class="flex-w cd100 p-t-15 p-b-15 p-r-36">
+			<div class="flex-w cd100 p-t-15 p-b-15 p-r-36" id="counter">
 				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
 					<span class="l1-txt1 wsize1 days">30</span>
 					<span class="m1-txt1 p-b-2">Dias</span>
@@ -71,12 +72,12 @@
 		</div>
 
 		<!--  -->
-		<div class="flex-col-c-m p-l-15 p-r-15 p-t-80 p-b-90">
+		<div class="flex-col-c-m p-l-15 p-r-15 p-t-80 p-b-90" id="rotulo">
 			<h3 class="l1-txt2 txt-center p-b-55 respon1">
 					Pr&oacute;ximamente
 			</h3>
 
-			<div style="color: white;" class="animated infinite bounce delay-5s">
+			<div id="viewMore">
 				<a href="#main-area" ><i class="fa fa-angle-down fa-5x"></i></a> 
 			</div>
 		</div>
@@ -86,7 +87,12 @@
 
 	<div class="main-area" id="main-area">
 		
-		<section class="left-section" style="background-image: url(images/photos/charlies.png)"></section>
+		<section class="left-section" style="
+			    background-image: url(images/photos/charlies.png);
+				background-position: center;
+				background-size: contain;
+				background-repeat: no-repeat;"
+				></section>
 		
 		
 		<section class="right-section full-height">
@@ -100,7 +106,7 @@
 						<h4> Soy Charlies Yacniel </h4>
 
 						<p class="desc">
-							Disculpas, aun estoy trabajando en mi sitio web, muy pronto estaré publicando toda mi información y mis proyectos del antes, el presente y el futuro.
+							Disculpas, aun estoy trabajando en mi sitio web, muy pronto estaré publicando toda mi información y mis proyectos del antes, ahora y los que vienen.
 						</p>
 						<br>
 						<p class="desc">
@@ -141,10 +147,10 @@
 <!--===============================================================================================-->	
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!-- <script src="vendor/bootstrap/js/popper.js"></script> -->
+	<!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
 <!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
+	<!-- <script src="vendor/select2/select2.min.js"></script> -->
 <!--===============================================================================================-->
 	<script src="vendor/countdowntime/moment.min.js"></script>
 	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
