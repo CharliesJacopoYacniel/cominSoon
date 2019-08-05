@@ -1,0 +1,22 @@
+{
+  "name": "charlyescomingsoon",
+  "version": "1.0.0",
+  "description": "Pagina comming soon del sitio web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharliesJacopoYacniel/cominSoon.git"
+  },
+  "keywords": [
+    "proximamente"
+  ],
+  "author": "Charlies Yacniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharliesJacopoYacniel/cominSoon/issues"
+  },
+  "homepage": "https://github.com/CharliesJacopoYacniel/cominSoon#readme"
+}
