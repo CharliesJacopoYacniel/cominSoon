@@ -3,7 +3,6 @@
 
 ## Empezando
 
-
 ## Pre requisitos
 Qué cosas necesita para instalar el software y cómo instalarlo.
 ..Mostrar ejemplo..
@@ -27,45 +26,23 @@ Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
 ..Mostrar ejemplo..
  
 
-
-
 ## Construido con
 - [Framework 1](http://github.com) - Descripcion principal de " Framework 1 "
 
 ## Versiones
 
 ### version 1.0.0
-![Login test Image](https://github.com/CharliesJacopoYacniel/loginTest/blob/master/src/capturesImage/loginTest1.png)
-Captura: Primera vista de login test.
+![Login test Image](https://github.com/CharliesJacopoYacniel/cominSoon/blob/master/captures/Screen%20Shot%202019-08-05%20at%202.53.42%20PM.png)
 
-![Login test Image](https://github.com/CharliesJacopoYacniel/loginTest/blob/master/src/capturesImage/logintestToken.png)
-Captura: Primera vista de login test.
+Captura: Primera vista de comin soon.
 
-![Login test Image](https://github.com/CharliesJacopoYacniel/loginTest/blob/master/src/capturesImage/logintestToast.png)
+![Login test Image](https://github.com/CharliesJacopoYacniel/cominSoon/blob/master/captures/Screen%20Shot%202019-08-05%20at%202.53.55%20PM.png)
 
-Captura: Primera vista de login test.
-
-![Login test Image](https://github.com/CharliesJacopoYacniel/loginTest/blob/master/src/capturesImage/last.png)
-
-Captura: Ultima vista (editada) de login test.
+Captura: Segunda vista de comin soon.
 
 ## Autores
-**Charlies Yacniel** - Trabajo inicial - [CharliesJacopoYacniel](https://www.facebook.com/CharliesYacniel)
-Vea también la lista de [colaboradores](https://github.com/CharliesJacopoYacniel/APISoap/graphs/contributors) que participaron en este proyecto.
+**Charlies Yacniel**  - [charlyes.com](https://www.charlyes.com) 
 
 License
 ----
-Este proyecto es FREE.
-```Text
-      ___           ___           ___           ___                                     ___           ___              
-     /  /\         /__/\         /  /\         /  /\                      ___          /  /\         /  /\             
-    /  /:/         \  \:\       /  /::\       /  /::\                    /  /\        /  /:/_       /  /:/_            
-   /  /:/           \__\:\     /  /:/\:\     /  /:/\:\    ___     ___   /  /:/       /  /:/ /\     /  /:/ /\           
-  /  /:/  ___   ___ /  /::\   /  /:/~/::\   /  /:/~/:/   /__/\   /  /\ /__/::\      /  /:/ /:/_   /  /:/ /::\          
- /__/:/  /  /\ /__/\  /:/\:\ /__/:/ /:/\:\ /__/:/ /:/___ \  \:\ /  /:/ \__\/\:\__  /__/:/ /:/ /\ /__/:/ /:/\:\         
- \  \:\ /  /:/ \  \:\/:/__\/ \  \:\/:/__\/ \  \:\/:::::/  \  \:\  /:/     \  \:\/\ \  \:\/:/ /:/ \  \:\/:/~/:/         
-  \  \:\  /:/   \  \::/       \  \::/       \  \::/~~~~    \  \:\/:/       \__\::/  \  \::/ /:/   \  \::/ /:/          
-   \  \:\/:/     \  \:\        \  \:\        \  \:\         \  \::/        /__/:/    \  \:\/:/     \__\/ /:/           
-    \  \::/       \  \:\        \  \:\        \  \:\         \__\/         \__\/      \  \::/        /__/:/            
-     \__\/         \__\/         \__\/         \__\/                                   \__\/         \__\/             
-```
+Este proyecto es mio XD.
